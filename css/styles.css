@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;800&display=swap');
+
+body{
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+#navmenu li > a {
+    font-size: 17px;
+    text-align: center;
+}
+
+#navmenu form > button {
+font-size: 15px;
+}
+
+.llamador{
+    color: #0dcaf0;
+    font-size: 180px;
+    font-weight: 800;
+    padding-top: 5%;
+    padding-bottom: 180px;
+    text-align: center;
+}
+.bajadallamador{
+    color: #0dcaf0;
+    font-size: 60px;
+    font-weight: 500;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.misdatos{
+    text-align: center;
+    margin: auto;
+    padding: 10px 100px 60px 100px;
+    line-height: 2em;
+}
+
+footer{
+    background: #0dcaf0;
+    min-height: 50px;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+}
+#iconos i {
+    font-size: 26px;
+    font-family: 'Manrope';
+    padding: 0 8px;
+    color: #fff;
+}
+.hoverimg:hover{
+    background-color: #4a4e4e;
+    border-radius: 15px;
+}
+
+/* Media queries */
+@media (max-width: 767.98px) {
+    #llamador, #bajadallamador {
+        width: 60% !important;
+        }
+    
+}
